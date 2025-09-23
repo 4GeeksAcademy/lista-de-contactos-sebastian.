@@ -12,7 +12,7 @@ const ContactCard = ({ contact }) => {
       {/* Lado izquierdo: Imagen + información */}
       <div className="contact-left">
         <img
-          src={contact.img || "https://cdn.pixabay.com/photo/2016/11/29/13/14/attractive-1869761_1280.jpg"}
+          src={contact.img || "https://cdn.pixabay.com/photo/2016/11/29/13/14/attractive-1869761_1280."}
           alt={contact.name}
           className="contact-img"
         />
